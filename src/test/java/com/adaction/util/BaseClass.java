@@ -43,7 +43,7 @@ public class BaseClass {
         if (browser.equalsIgnoreCase("chrome")) {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
-      
+
         } else if (browser.equalsIgnoreCase("edge")) {
             WebDriverManager.chromedriver().setup();
             driver = new EdgeDriver();
@@ -62,7 +62,7 @@ public class BaseClass {
 
     public void maxi() {
         driver.manage().window().maximize();
-        System.out.println("Window is maximized now");
+        System.out.println("Window is maximized thillai");
     }
 
     public void iwait(int wait) {
