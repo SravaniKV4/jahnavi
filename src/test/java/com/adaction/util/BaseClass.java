@@ -62,7 +62,11 @@ public class BaseClass {
 
     public void maxi() {
         driver.manage().window().maximize();
+
+        System.out.println("Window is maximized sravani");
+
         System.out.println("Window is maximized thillai");
+
     }
 
     public void iwait(int wait) {
