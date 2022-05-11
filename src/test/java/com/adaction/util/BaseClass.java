@@ -43,11 +43,11 @@ public class BaseClass {
         if (browser.equalsIgnoreCase("chrome")) {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
-            System.out.println("chrome browser launched");
+      
         } else if (browser.equalsIgnoreCase("edge")) {
             WebDriverManager.chromedriver().setup();
             driver = new EdgeDriver();
-            System.out.println("edge browser launched");
+
         }
     }
 
